@@ -1,7 +1,12 @@
+head {
+  text-align: center;
+}
+
 body {
-  background-color: blue;
+  background-color: white;
+  text-align: center;
 }
 
 p {
-
+text-align: center;
 }
