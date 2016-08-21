@@ -3,10 +3,35 @@ head {
 }
 
 body {
-  background-color: white;
+  background-image: url("http://i.imgur.com/kBNQatR.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
 p {
 text-align: center;
+color: white;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.container4 {
+    height: 10em;
+    position: relative
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+footer {
+  clear: both;
 }
