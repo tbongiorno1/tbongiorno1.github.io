@@ -1,5 +1,9 @@
 head {
   text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
@@ -7,11 +11,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 p {
 text-align: center;
-color: white;
+color: black;
 }
 
 h1 {
@@ -21,7 +28,12 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
+h3 {
+  color: white;
+}
+
 .container4 {
+    display: inline-block;
     height: 10em;
     position: relative
     margin: 0;
@@ -29,9 +41,22 @@ h1 {
     top: 40%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    clear: both;
 }
 
 footer {
   clear: both;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  color: black;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
 }
