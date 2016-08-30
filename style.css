@@ -1,21 +1,29 @@
 header {
   text-align: center;
   background: black;
-  background: url(http://i.imgur.com/24pOP7j.jpg);
-  background-size: cover;
-  color: white;
+  background-color: #F2F1ED;
+  /*background: url(http://i.imgur.com/24pOP7j.jpg);
+  background-size: cover;*/
+  color: #de5a51;
 }
 body{
-  background-color: white;
+  background-color: #F2F1ED;
 }
 a {
-  color: white;
+  color: #de5a51;
 }
 h1 {
   font-size: 70px;
 }
 h2 {
+  color: #de5a51;
   text-align: center;
+}
+hr {
+  border: solid black;
+  background-color: black;
+  height: 3px;
+  width: 90%;
 }
 p {
   font-size: 20px;
@@ -31,7 +39,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #F2F1ED;
 }
 
 li {
@@ -40,7 +48,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -48,7 +56,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #de5a51;
 }
 
 li {
@@ -69,4 +77,9 @@ article {
     padding: 5px;
     display: block;
   }
+}
+
+.container {
+display: inline-block;
+left: 10%;
 }
