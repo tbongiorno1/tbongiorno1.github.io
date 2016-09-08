@@ -6,6 +6,8 @@ header {
 }
 body{
   background: url(http://i.imgur.com/wTmHPs0.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
 }
 a {
   color: white;
@@ -20,8 +22,11 @@ a {
   text-align: center;
   color: white;
   opacity: 2;
+  margin: 0 auto;
+  font-weight: normal;
 }
 h3 {
+  color: white;
   position: absolute;
   left: 32%;
 }
@@ -39,7 +44,7 @@ h2 {
   text-align: center;
   font-weight: normal;
   padding-top: 0px;
-  color: #434343;
+  color: white;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   opacity: 1;
@@ -63,18 +68,22 @@ img {
 }
 
 ul {
-    position: relative;
-    left: 34%;
-    z-index: 11
+    text-align: center;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
     list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
     overflow: hidden;
-    background-color: #4bb8d2;
+    background-color: black;
 }
 
 li {
-    float: left
+  float: left;
+  margin-right: 1%;
+  margin-left: 3%;
 }
 
 li a {
@@ -86,7 +95,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #434343;
+    background-color: grey;
 }
 
 li {
@@ -108,27 +117,58 @@ article {
     display: block;
   }
 }
-
 .container {
 display: inline-block;
 text-align: left;
 }
 
 .pageCover {
-background-color: #4bb8d2;
-opacity: .8;
-width: 1200px;
-height: 1200px;
-position: fixed;
-width: 100%;
-height: 100%;
-left: 0;
-top: 0;
-z-index: 2;
+  /*background-color: #3498db;*/
+  opacity: .8;
+  min-width: 100vh;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
 }
 
 .contact {
-  position: absolute;
-  left: 41%;
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+#contactHeader {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+#aboutHeader {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+#projectsHeader {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+footer {
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  background-color: white;
   bottom: 0;
+  left: 0;
+  color: black;
 }
