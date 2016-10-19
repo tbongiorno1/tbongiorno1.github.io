@@ -5,6 +5,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+#fullName {
+  color: #34495e;
+}
+
 #sectionTwo{
   position: relative;
   margin: 0;
@@ -27,13 +31,14 @@
   list-style-type: none;
   overflow: hidden;
   margin: 0;
+  color: #34495e;
 }
 
 #nav li a {
   position: relative;
   float: right;
   text-decoration: none;
-  color: black;
+  color: #34495e;
   margin-right: 1rem;
   top: -45px;;
 }
@@ -75,19 +80,25 @@
   background-color: #34495e;
   position: absolute;
   height: 50px;
-  width: 100px;
+  width: 200px;
   top: 72%;
-  left: 47%;
-  margin: 0;
+  left: 43%;
+  margin: 0 auto;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   border-radius: .25rem;
   border-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 #githubButton a{
   text-decoration: none;
   color: white;
+}
+
+#githubButton:hover {
+  background-color: #7f8c8d;
 }
 
 
