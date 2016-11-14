@@ -1,66 +1,106 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
-<body>
-  <section id="sectionOne">
-    <ul id="nav">
-      <h1 id="fullName">THOMAS JOSEPH BONGIORNO</h1>
-      <!-- <li><a href="#home">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li> -->
-      <!-- <li><a href="https://github.com/tbongiorno1">Github</a></li> -->
-      <!-- <li><a href="https://tbongiorno1.github.io/GOTquiz">GoT Quiz</a></li> -->
-  </ul>
-  </section>
-  <section id="sectionTwo">
-    <div id="logoContainer">
-      <h1 id="nameLogo">Hi, I'm TJ.</h1>
-      <h3 id="bioLogo">A Web Developer striving to keep the internet awesome.</h3>
-    </div>
-    <button type="button" name="button" id="githubButton"><a href="https://github.com/tbongiorno1">My Work</a></button>
-  </section>
-  <section id="sectionThree">
-    <!-- <h2 id="email">Email: Tbongiorno1@gmail.com</h2> -->
-  </section>
-</body>
-<div id="bottomNav">
-</div>
-  <!-- <header>
-    <ul>
-      <h1>Thomas Joseph Bongiorno</h1>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="https://github.com/tbongiorno1">Github</a></li>
-      <li><a href="https://tbongiorno1.github.io/GOTquiz">GoT Quiz</a></li>
-  </ul>
-  </header> -->
-
-  <!-- <div class="pageCover">
-  </div>
-  <div class="logo">
-    <h3>Thomas J. Bongiorno</h3>
-    <br>
-    <h3>UNDER CONSTRUCTION</h3>
-    <h1>Full-Stack Web Developer.</h1>
-    <h2>KEEPING THE INTERNET AWESOME</h2>
-  </div> -->
-
-<!-- <footer>
-  <div id="about">
-    <h2 id="aboutHeader">About</h2>
-    <p>
-      Hi! My name is TJ, a New York based Web Developer. I began my web development journey as an outlet for my ideation and creativity and quickly fell in love. Developing has given me the hard skills to bring the abstract into reality. This, combined with my past experience has given me the ability to not only build clean, responsive web applications, but to convey this technical knowledge in a clean and understandable way to a wide variety of audiences. When I am not developing I like to read, play sports of any kind, PC game, or watch anything that will make me laugh.
-    </p>
-  </div>
-  <div id="contact">
-    <h2 id="contactHeader">Contact</h2>
-    <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    </p>
-  </div>
-</footer> -->
-<div id="bottomNav">
-</div>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Thomas J. Bongiorno</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/one-page-wonder.css" rel="stylesheet">
+      <script src="https://use.fontawesome.com/0a4b411e8b.js"></script>
+      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">Home</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                      <li>
+                          <a href="#about">About</a>
+                      </li>
+                      <li>
+                          <a href="#fuber">Projects</a>
+                      </li>
+                      <li>
+                          <a href="#crank">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <header class="header-image">
+          <div class="headline">
+              <div class="container">
+                  <h1>Thomas J. Bongiorno</h1>
+                  <h2>Keeping The Internet Awesome.</h2>
+                  <div class="btn-group-lg" role="group" aria-label="...">
+                    <button id="githubBtn" type="button" class="btn btn-default"><a href="https://github.com/tbongiorno1">Github</a></button>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <div class="container">
+          <hr class="featurette-divider">
+          <div class="featurette" id="about">
+              <img class="featurette-image img-circle img-responsive pull-right" src="http://i.imgur.com/NUjepZq.jpg">
+              <h2 class="featurette-heading">Hi, I'm TJ
+                  <span class="text-muted">A Full Stack Web Developer</span>
+              </h2>
+              <p class="lead">I am an extremely passionate and driven developer with an eye for design seeking an opportunity to learn and grow in a great environment with great people.</p>
+          </div>
+          <hr class="featurette-divider">
+          <div class="featurette" id="fuber">
+              <img class="featurette-image img-circle img-responsive pull-left" src="http://i.imgur.com/nPYOmfh.png?1">
+              <div class="btn-group-lg" role="group" aria-label="...">
+                <button id="fuberBtn" type="button" class="btn btn-default"><a href="http://fuberapp.com">Checkout Fuber</a></button>
+              </div>
+              <h2 class="featurette-heading">Fuber
+                  <span class="text-muted">A Full Stack Rails Application</span>
+              </h2>
+              <p class="lead">Fuber is a bit-sized course application which allows authors to build courses and users to subscribe to those courses and receive the lessons via email.</p>
+          </div>
+          <hr class="featurette-divider">
+          <div class="featurette" id="crank">
+              <img class="featurette-image img-circle img-responsive pull-right" src="http://i.imgur.com/Nhdcplo.png?2">
+              <div class="btn-group-lg" role="group" aria-label="...">
+                <button id="fuberBtn" type="button" class="btn btn-default"><a href="http://crank-o-meter.herokuapp.com">Checkout Crank-O-Meter</a></button>
+              </div>
+              <h2 class="featurette-heading">Crank-O-Meter
+                  <span class="text-muted">A Full Stack React/Express Application</span>
+              </h2>
+              <p class="lead">Crank-O-Meter provides a fun-loving way to test how cranky you are and apologize to someone for being cranky via email.</p>
+          </div>
+          <hr class="featurette-divider">
+          <footer>
+              <div class="row">
+                  <div class="col-lg-12">
+                      <p>Copyright &copy; Thomas J. Bongiorno 2016</p>
+                      <div class="socialLinks">
+                      <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+                      <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+      </div>
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="https://use.fontawesome.com/0a4b411e8b.js"></script>
+  </body>
+</html>
